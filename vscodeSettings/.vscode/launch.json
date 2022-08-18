@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch VSCode Node App",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/src/index.mjs",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js"
+    }
+  ]
+}
